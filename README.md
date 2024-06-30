@@ -13,13 +13,24 @@ Existing methods for 3D single object tracking predominantly follow the Siamese 
 
 ![SiamMo](figures/siammo.png)
 
-## Main Results on KITTI SOT with Pretrained Models
+## Main Results on SOT Benchmarks with Pretrained Models
+### KITTI
 | Category | Success | Precision | Config |  Checkpoint |
 | :---: | :---: | :---: | :---: |  :---: |
 | Car | 76.25 | 88.05 | [config](configs/kitti/car.py) | [baidu](https://pan.baidu.com/s/1REno9obnDSHzEsHbVvRkZQ?pwd=1234)|
 | Pedestrian | 68.59 | 93.85 | [config](configs/kitti/ped.py) | [baidu](https://pan.baidu.com/s/1h53EFurWFyyGUlw5CM7lCg?pwd=1234)|
 | Van | 67.86 | 80.45 | [config](configs/kitti/van.py) | [baidu](https://pan.baidu.com/s/1ePR4jerQzM85AMCyreqFXg?pwd=1234)|
 | Cyclist | 78.53 | 94.81 | [config](configs/kitti/cyc.py) | [baidu](https://pan.baidu.com/s/1m7CWC56djJCvnX-Wt8xEMQ?pwd=1234)|
+
+### NuScenes
+| Category | Success | Precision | Config |  Checkpoint |
+| :---: | :---: | :---: | :---: |  :---: |
+| Car | 64.95 | 72.24 | [config](configs/nuscenes/car.py) | [baidu](https://pan.baidu.com/s/1u5i4SccW_f-8ChGK5UrooQ?pwd=1234)|
+| Pedestrian | 46.23 | 76.25 | [config](configs/nuscenes/ped.py) | [baidu](https://pan.baidu.com/s/12H115vjJKEtwH8geNFlB9g?pwd=1234)|
+| Truck | 68.22 | 68.81 | [config](configs/nuscenes/truck.py) | [baidu](https://pan.baidu.com/s/1zdlDCm2tn8_lZ3ZHfClYjg?pwd=1234)|
+| Trailer | 73.65 | 71.23 | [config](configs/nuscenes/trailer.py) | [baidu](https://pan.baidu.com/s/11mt9IPpngAgRiveChdN2cg?pwd=1234)|
+| Bus | 66.01 | 61.07 | [config](configs/nuscenes/bus.py) | [baidu](https://pan.baidu.com/s/1VIpbk-xlyApT6eB2NeS9ag?pwd=1234)|
+
 
 ## Setup
 Here we list the most important part of our dependencies
