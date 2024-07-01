@@ -28,8 +28,8 @@ Existing methods for 3D single object tracking predominantly follow the Siamese 
 | Car | 64.95 | 72.24 | [config](configs/nuscenes/car.py) | [baidu](https://pan.baidu.com/s/1u5i4SccW_f-8ChGK5UrooQ?pwd=1234)|
 | Pedestrian | 46.23 | 76.25 | [config](configs/nuscenes/ped.py) | [baidu](https://pan.baidu.com/s/12H115vjJKEtwH8geNFlB9g?pwd=1234)|
 | Truck | 68.22 | 68.81 | [config](configs/nuscenes/truck.py) | [baidu](https://pan.baidu.com/s/1zdlDCm2tn8_lZ3ZHfClYjg?pwd=1234)|
-| Trailer | 73.65 | 71.23 | [config](configs/nuscenes/trailer.py) | [baidu](https://pan.baidu.com/s/11mt9IPpngAgRiveChdN2cg?pwd=1234)|
-| Bus | 66.01 | 61.07 | [config](configs/nuscenes/bus.py) | [baidu](https://pan.baidu.com/s/1VIpbk-xlyApT6eB2NeS9ag?pwd=1234)|
+| Trailer | 74.21 | 70.63 | [config](configs/nuscenes/trailer.py) | [baidu](https://pan.baidu.com/s/1M9vxZNKBkpQvVyMJjRRfHg?pwd=1234)|
+| Bus | 65.63 | 62.07 | [config](configs/nuscenes/bus.py) | [baidu](https://pan.baidu.com/s/1tGyfkUs3gjmQypDsMyBr4Q?pwd=1234)|
 
 
 ## Setup
@@ -38,7 +38,7 @@ Here we list the most important part of our dependencies
 |---|---|
 |python|3.9.0|
 |pytorch|2.0.1 (cuda11.8)|
-|mmegine|0.7.4|
+|mmegine|0.10.4|
 |mmcv|2.0.0|
 |mmdet|3.0.0|
 |mmdet3d|1.1.0| 
