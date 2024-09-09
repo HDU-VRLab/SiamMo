@@ -1,6 +1,6 @@
 
 # SiamMo
-This repo is the official implementation of "SiamMo: Siamese Motion-Centric 3D Object Tracking". It currently includes the testing code and models for 3D single object tracking.
+This repo is the official implementation of ["SiamMo: Siamese Motion-Centric 3D Object Tracking"](https://arxiv.org/abs/2408.01688). It currently includes the testing code and models for 3D single object tracking.
 An open source platform for general 3D single object tracking, based on [OpenMMlab](https://github.com/open-mmlab/mmdetection3d).
 
 ### Features
